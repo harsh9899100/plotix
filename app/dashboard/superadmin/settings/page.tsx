@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Input, Select, Checkbox, Textarea } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 export default function SuperAdminSettingsPage() {
   const [general, setGeneral] = useState({ siteName:"PLOTIX Reality", tagline:"Find Your Dream Property", supportEmail:"support@plotix.in", supportPhone:"+91 1800-PLOTIX", timezone:"Asia/Kolkata", currency:"INR", language:"en", maintenanceMode:false })
   const [commission, setCommission] = useState({ agentRate:"2.0", builderRate:"1.5", platformFee:"0.5", gstRate:"18", tdsRate:"10" })

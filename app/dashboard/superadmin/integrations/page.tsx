@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 const INTEGRATIONS = [
   { id:"razorpay", name:"Razorpay", category:"Payment Gateway", desc:"Process payments, subscriptions, and payouts securely.", icon:"💳", status:"CONNECTED", href:"/dashboard/superadmin/integrations/payment-gateway", lastSync:"2 hours ago", plan:"Business Plan" },
   { id:"resend", name:"Resend", category:"Email Service", desc:"Transactional emails with high deliverability rates.", icon:"📧", status:"CONNECTED", href:"/dashboard/superadmin/integrations/email-service", lastSync:"5 minutes ago", plan:"Pro Plan" },

@@ -7,7 +7,6 @@ import { Badge, SearchInput, Tabs, StatCard, Avatar } from "@/components/ui"
 import { formatTimeAgo, formatCurrency } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const INQUIRIES = [
   { id:"i1", buyerName:"Arjun Mehta", buyerEmail:"arjun@demo.com", buyerPhone:"+91 98765 43210", buyerAvatar:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face", unit:"Unit 1204 — Sky Residences", project:"Sky Residences", unitPrice:8500000, message:"Hi, I'm very interested in Unit 1204. Could you share the floor plan and payment schedule?", status:"NEW", receivedAt:new Date(Date.now()-3*3600000) },
   { id:"i2", buyerName:"Meera Patel", buyerEmail:"meera@mail.com", buyerPhone:"+91 87654 23456", buyerAvatar:"", unit:"Villa B-05 — Harmony Villas", project:"Harmony Villas", unitPrice:12000000, message:"We are NRI buyers based in Dubai. Can we schedule a virtual tour? Also, is there any NRI-specific payment plan?", status:"REPLIED", receivedAt:new Date(Date.now()-24*3600000) },

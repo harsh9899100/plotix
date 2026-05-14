@@ -6,7 +6,6 @@ import { Avatar, Badge, SearchInput, StatCard, Tabs } from "@/components/ui"
 import { formatTimeAgo } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const LEADS = [
   { id:"l1", name:"Arjun Mehta", phone:"+91 98765 43210", email:"arjun@demo.com", avatar:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face", city:"Surat", interest:"Unit 1204 — Sky Residences", budget:"₹80L–₹1Cr", source:"Website", status:"HOT", score:92, receivedAt:new Date(Date.now()-3*3600000) },
   { id:"l2", name:"Meera Patel", phone:"+91 87654 23456", email:"meera@mail.com", avatar:"", city:"Ahmedabad", interest:"Villa B-05 — Harmony Villas", budget:"₹1Cr–₹1.5Cr", source:"Agent Referral", status:"WARM", score:74, receivedAt:new Date(Date.now()-24*3600000) },

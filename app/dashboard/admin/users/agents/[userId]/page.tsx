@@ -7,7 +7,6 @@ import { formatDate, formatCurrency } from "@/lib/utils"
 import { useState } from "react"
 import toast from "react-hot-toast"
 
-
 const AGENT = {
   id:"a1", firstName:"Priya", lastName:"Sharma", email:"priya@agency.com", phone:"+91 97654 32109",
   avatar:"https://images.unsplash.com/photo-1494790108755-2616b612b786?w=120&h=120&fit=crop&crop=face",

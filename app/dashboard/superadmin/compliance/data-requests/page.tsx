@@ -7,7 +7,6 @@ import { formatDate, formatTimeAgo } from "@/lib/utils"
 import { useState } from "react"
 import toast from "react-hot-toast"
 
-
 const REQUESTS = [
   { id:"dr1", userId:"u-7823", name:"Ramesh Singh", email:"ramesh.singh@hotmail.com", type:"DELETION", reason:"No longer want to use the platform", status:"PENDING", submittedAt:new Date(Date.now()-24*3600000) },
   { id:"dr2", userId:"u-3341", name:"Pooja Kapoor", email:"pooja.k@mail.com", type:"ACCESS", reason:"Want a copy of all my personal data", status:"COMPLETED", submittedAt:new Date(Date.now()-7*86400000), completedAt:new Date(Date.now()-5*86400000) },

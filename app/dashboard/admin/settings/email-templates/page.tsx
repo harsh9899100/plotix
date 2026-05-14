@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge, EmptyState, ConfirmDialog } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 const TEMPLATES = [
   { id:"t1", name:"Welcome Email", trigger:"On User Registration", category:"TRANSACTIONAL", subject:"Welcome to PLOTIX Reality 🏠", lastModified:"2024-11-01", status:"ACTIVE" },
   { id:"t2", name:"New Inquiry Notification", trigger:"When inquiry submitted", category:"NOTIFICATION", subject:"New Property Inquiry — {{property_name}}", lastModified:"2024-10-28", status:"ACTIVE" },

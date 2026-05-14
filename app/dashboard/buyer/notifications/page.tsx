@@ -7,7 +7,6 @@ import { formatTimeAgo, cn } from "@/lib/utils"
 import toast from "react-hot-toast"
 import Link from "next/link"
 
-
 const NOTIF_CONFIG: Record<string,{icon:any;color:string;bg:string}> = {
   INQUIRY:       { icon:MessageSquare, color:"text-violet-500", bg:"bg-violet-50" },
   MESSAGE:       { icon:MessageSquare, color:"text-blue-500",   bg:"bg-blue-50" },

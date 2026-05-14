@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Input, Textarea, Select } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 const INITIAL = {
   firstName: "Arjun", lastName: "Mehta", email: "arjun@demo.com",
   phone: "+91 98765 43210", city: "Surat", state: "Gujarat",

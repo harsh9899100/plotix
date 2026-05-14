@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { StatCard, Badge } from "@/components/ui"
 import { formatTimeAgo } from "@/lib/utils"
 
-
 const QUICK_NAV = [
   { title:"KYC / AML Verification", desc:"Verify agent and builder identity documents and RERA credentials.", icon:Shield, href:"/dashboard/superadmin/compliance/kyc-aml", badge:"3 Pending", badgeVariant:"amber" },
   { title:"Audit Logs", desc:"Complete trail of all administrative and system actions on the platform.", icon:FileText, href:"/dashboard/superadmin/compliance/audit-logs", badge:"View All", badgeVariant:"stone" },

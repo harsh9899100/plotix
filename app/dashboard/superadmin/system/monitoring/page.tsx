@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge } from "@/components/ui"
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from "recharts"
 
-
 const INITIAL_METRICS = Array.from({length:20},(_,i) => ({
   t: `${i}m`, cpu: Math.round(20+Math.random()*40), ram: Math.round(50+Math.random()*25),
   requests: Math.round(100+Math.random()*200), errors: Math.round(Math.random()*5)

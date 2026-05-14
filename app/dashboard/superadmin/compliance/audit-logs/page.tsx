@@ -6,7 +6,6 @@ import { Badge, Tabs, StatCard } from "@/components/ui"
 import { formatDate, formatTimeAgo } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const AUDIT_LOGS = [
   { id:"al1", actor:"admin@plotix.in", role:"ADMIN", action:"APPROVE_PROPERTY", target:"Penthouse in Vesu (prop-123)", ip:"192.168.1.5", timestamp:new Date(Date.now()-30*60000), severity:"INFO" },
   { id:"al2", actor:"superadmin@plotix.in", role:"SUPERADMIN", action:"SUSPEND_USER", target:"vijay@homes.com (user-456)", ip:"192.168.1.1", timestamp:new Date(Date.now()-2*3600000), severity:"WARN" },

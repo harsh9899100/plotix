@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Input, Select, Checkbox, Textarea } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 export default function AdminGeneralSettingsPage() {
   const [form, setForm] = useState({
     siteName:"PLOTIX Reality", supportEmail:"support@plotix.in", supportPhone:"+91 1800-PLOTIX",

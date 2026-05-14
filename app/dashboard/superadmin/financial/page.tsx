@@ -6,7 +6,6 @@ import { Select } from "@/components/ui"
 import { formatCurrency } from "@/lib/utils"
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, Legend, PieChart, Pie, Cell } from "recharts"
 
-
 const MONTHLY_REVENUE = [
   { month:"Jun", revenue:1850000, commissions:370000, subscriptions:280000 },
   { month:"Jul", revenue:2100000, commissions:420000, subscriptions:310000 },

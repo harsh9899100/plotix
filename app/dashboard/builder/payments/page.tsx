@@ -6,7 +6,6 @@ import { Badge, StatCard, Tabs } from "@/components/ui"
 import { formatDate, formatCurrency } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const PAYMENTS = [
   { id:"p1", ref:"PAY-2024-BLD-0842", description:"PLOTIX Premium Listing — Sky Residences Phase 2", amount:24999, tax:4500, total:29499, method:"Bank Transfer", status:"SUCCESS", date:new Date(Date.now()-30*86400000) },
   { id:"p2", ref:"PAY-2024-BLD-0871", description:"Featured Placement — Harmony Villas (Nov 2024)", amount:14999, tax:2700, total:17699, method:"UPI", status:"SUCCESS", date:new Date(Date.now()-7*86400000) },

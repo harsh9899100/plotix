@@ -33,7 +33,7 @@ export default async function OwnerDashboardPage() {
   const user = session.user
 
   return (
-    <DashboardLayout user={{ id: user.id!, firstName: user.firstName!, lastName: user.lastName!, role: user.role!, email: user.email!, profileImage: user.profileImage }}>
+    <DashboardLayout>
       <div className="dashboard-main py-6 space-y-8">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
@@ -43,7 +43,6 @@ export default async function OwnerDashboardPage() {
           </div>
           <Link href="/dashboard/owner/properties/new" className="btn-gold self-start"><Plus className="w-4 h-4"/>List a Property</Link>
         </div>
-
 
         {/* Stats */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

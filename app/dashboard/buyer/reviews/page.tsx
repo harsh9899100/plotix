@@ -6,7 +6,6 @@ import { Badge, EmptyState, ConfirmDialog, Tabs } from "@/components/ui"
 import { formatDate } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const MY_REVIEWS = [
   { id:"r1", targetType:"PROPERTY", targetName:"Luxurious 4BHK Penthouse in Vesu", rating:5, review:"Absolutely stunning property. The views from the top floor are breathtaking and the build quality is exceptional. Priya made the whole process seamless.", status:"PUBLISHED", date:new Date(Date.now()-15*86400000) },
   { id:"r2", targetType:"AGENT", targetName:"Priya Sharma — Sharma Realty", rating:5, review:"Priya was incredibly professional and responsive throughout our property search. She understood exactly what we were looking for and never wasted our time.", status:"PUBLISHED", date:new Date(Date.now()-15*86400000) },

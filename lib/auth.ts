@@ -77,7 +77,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
     Credentials({
-      async authorize(credentials) {
+      async authorize(credentials): Promise<any> {
         const validated = LoginSchema.safeParse(credentials)
         if (!validated.success) return null
         const { email, password } = validated.data
@@ -87,7 +87,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         if (!user || !user.password) return null
         const passwordsMatch = await bcrypt.compare(password, user.password)
         if (!passwordsMatch) return null
-        return user
+        return user as any
       },
     }),
   ],

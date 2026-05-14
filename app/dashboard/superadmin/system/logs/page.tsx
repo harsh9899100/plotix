@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge, SearchInput, Select, Tabs } from "@/components/ui"
 import { formatDateTime } from "@/lib/utils"
 
-
 const LOGS = [
   { id:"l1", level:"INFO", service:"Auth", message:"User arjun@demo.com logged in successfully", ip:"103.21.44.1", timestamp:new Date(Date.now()-5*60000), userId:"u1" },
   { id:"l2", level:"WARN", service:"API", message:"Rate limit approaching for IP 182.71.30.5 — 85/100 requests", ip:"182.71.30.5", timestamp:new Date(Date.now()-12*60000), userId:null },

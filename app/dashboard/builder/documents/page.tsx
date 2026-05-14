@@ -6,7 +6,6 @@ import { Badge, SearchInput, Tabs, StatCard, ConfirmDialog } from "@/components/
 import { formatDate } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const DOCUMENTS = [
   { id:"d1", name:"RERA Registration Certificate.pdf", type:"RERA", size:"2.4 MB", project:"All Projects", uploadedAt:new Date(Date.now()-90*86400000), status:"VERIFIED" },
   { id:"d2", name:"GST Registration Certificate.pdf", type:"LEGAL", size:"1.1 MB", project:"All Projects", uploadedAt:new Date(Date.now()-90*86400000), status:"VERIFIED" },

@@ -6,7 +6,6 @@ import { Badge, Tabs, StatCard, Avatar } from "@/components/ui"
 import { formatDate } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const VIEWINGS = [
   { id:"v1", buyerName:"Arjun Mehta", buyerAvatar:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face", property:"Luxurious 4BHK Penthouse in Vesu", address:"Sky Towers, Vesu, Surat", date:new Date(Date.now()+24*3600000), time:"11:00 AM", status:"CONFIRMED" },
   { id:"v2", buyerName:"Meera Patel", buyerAvatar:"", property:"3BHK Apartment in Adajan", address:"Sky Heights, Adajan, Surat", date:new Date(Date.now()+2*86400000), time:"4:00 PM", status:"PENDING" },

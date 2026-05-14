@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Input, Textarea, Select, Checkbox } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 const TEMPLATES = [
   { value:"listing-alert", label:"New Listing Alert" },
   { value:"price-drop", label:"Price Drop Notification" },

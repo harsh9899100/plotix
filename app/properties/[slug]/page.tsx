@@ -70,7 +70,7 @@ export default function PropertyDetailPage({ params }: PageProps) {
                 </div>
                 {p.images && p.images.length > 1 && (
                   <div className="grid grid-cols-4 gap-2">
-                    {p.images.slice(1, 4).map((img, i) => (
+                    {p.images.slice(1, 4).map((img: string, i: number) => (
                       <div key={i} className="relative aspect-video rounded-xl overflow-hidden bg-stone-100">
                         <Image src={img} alt={`View ${i+2}`} fill className="object-cover" sizes="25vw"/>
                       </div>
@@ -126,7 +126,7 @@ export default function PropertyDetailPage({ params }: PageProps) {
                 <div>
                   <h2 className="font-display text-xl font-medium text-stone-900 mb-4">Amenities</h2>
                   <div className="flex flex-wrap gap-2">
-                    {p.amenities.map(a => (
+                    {p.amenities.map((a: string) => (
                       <span key={a} className="flex items-center gap-1.5 px-4 py-2 bg-stone-50 border border-stone-100 rounded-xl text-sm font-body text-stone-700">
                         <CheckCircle2 className="w-4 h-4 text-emerald-500"/>{a}
                       </span>

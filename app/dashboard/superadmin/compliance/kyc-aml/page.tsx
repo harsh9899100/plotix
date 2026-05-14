@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge, SearchInput, Tabs, StatCard } from "@/components/ui"
 import { formatDateTime, formatTimeAgo } from "@/lib/utils"
 
-
 const KYC_RECORDS = [
   { id:"k1", name:"Priya Sharma", role:"AGENT", email:"priya@agency.com", rera:"RERA-GUJ-AGT-2024-1234", doc:"Aadhaar + PAN + RERA Certificate", status:"VERIFIED", submittedAt:new Date(Date.now()-10*86400000), verifiedAt:new Date(Date.now()-9*86400000) },
   { id:"k2", name:"Karan Developers Ltd", role:"BUILDER", email:"karan@builders.com", rera:"RERA-GUJ-DEV-2023-0045", doc:"GST + Company Registration + RERA", status:"VERIFIED", submittedAt:new Date(Date.now()-30*86400000), verifiedAt:new Date(Date.now()-29*86400000) },

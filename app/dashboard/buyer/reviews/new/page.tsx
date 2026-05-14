@@ -7,7 +7,6 @@ import { Button, Input, Textarea, Select } from "@/components/ui"
 import { MOCK_PROPERTIES } from "@/lib/data/mock"
 import toast from "react-hot-toast"
 
-
 export default function WriteReviewPage() {
   const [form, setForm] = useState({ propertyId:"", rating:0, title:"", comment:"", categories:{ property:0, agent:0, experience:0 } })
   const [hover, setHover] = useState(0)

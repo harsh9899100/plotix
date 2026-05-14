@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Avatar, Badge, SearchInput, StatCard } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 const BROKERS = [
   { id:"br1", name:"Priya Sharma", agency:"Sharma Realty", city:"Surat", phone:"+91 97654 32109", email:"priya@agency.com", avatar:"https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face", rera:"RERA-GUJ-AGT-2024-1234", rating:4.8, deals:3, status:"PREFERRED", activeListings:4 },
   { id:"br2", name:"Rohan Mehta", agency:"MetroHomes Realty", city:"Ahmedabad", phone:"+91 98123 45678", email:"rohan@metrohomes.in", avatar:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face", rera:"RERA-GUJ-AGT-2022-0890", rating:4.5, deals:2, status:"ACTIVE", activeListings:2 },

@@ -24,7 +24,7 @@ export default async function BuilderDashboardPage() {
   const user = session.user
 
   return (
-    <DashboardLayout user={{ id: user.id!, firstName: user.firstName!, lastName: user.lastName!, role: user.role!, email: user.email!, profileImage: user.profileImage }}>
+    <DashboardLayout>
       <div className="dashboard-main py-6 space-y-8">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div><h1 className="page-title">Builder Dashboard</h1><p className="page-subtitle">Welcome back, {user.firstName}. Here's your portfolio overview.</p></div>

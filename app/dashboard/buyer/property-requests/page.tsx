@@ -7,7 +7,6 @@ import { Badge, Button, EmptyState, Tabs, StatCard, ConfirmDialog } from "@/comp
 import { formatDate, cn } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const MOCK_REQUESTS = [
   { id:"pr1", title:"3BHK Apartment in Surat", propertyTypes:["APARTMENT"], budget:{min:4500000,max:8000000},
     bedrooms:[3], area:{min:1200,max:1800}, cities:["Surat"], status:"OPEN",

@@ -7,7 +7,6 @@ import { formatCurrency } from "@/lib/utils"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from "recharts"
 import toast from "react-hot-toast"
 
-
 const MONTHLY = [
   { month:"Jun", unitsSold:4, revenue:28000000, inquiries:28 },
   { month:"Jul", unitsSold:6, revenue:42000000, inquiries:35 },

@@ -8,7 +8,6 @@ import { MOCK_PROPERTIES } from "@/lib/data/mock"
 import { formatPrice, formatCurrency, cn } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 export default function ComparisonsPage() {
   const [compared, setCompared] = useState(MOCK_PROPERTIES.slice(0,3))
 

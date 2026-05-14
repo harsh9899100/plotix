@@ -8,7 +8,6 @@ import { formatPrice, formatDate, cn } from "@/lib/utils"
 import { MOCK_PROPERTIES } from "@/lib/data/mock"
 import toast from "react-hot-toast"
 
-
 const MY_PROPS = MOCK_PROPERTIES.map((p, i) => ({
   ...p,
   status: (["ACTIVE","ACTIVE","ACTIVE","DRAFT","ACTIVE","SOLD"] as any[])[i] || "ACTIVE",

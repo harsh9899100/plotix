@@ -6,7 +6,6 @@ import { Badge, StatCard, Tabs } from "@/components/ui"
 import { formatDateTime, formatCurrency } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const PAYMENTS = [
   { id:"p1", ref:"PAY-2024-00183", description:"Featured Listing Boost — 3BHK in Adajan", amount:4999, tax:900, total:5899, method:"UPI", status:"SUCCESS", date:new Date(Date.now()-7*86400000) },
   { id:"p2", ref:"PAY-2024-00142", description:"Premium Subscription — 3 Months", amount:2999, tax:540, total:3539, method:"CARD", status:"SUCCESS", date:new Date(Date.now()-30*86400000) },

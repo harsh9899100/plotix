@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Select, Checkbox } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 export default function BuyerSettingsPage() {
   const [notifications, setNotifications] = useState({
     emailNewMatch:true, emailPriceChange:true, emailViewingReminder:true,

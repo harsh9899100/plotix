@@ -6,7 +6,6 @@ import { Badge, StatCard, Tabs, SearchInput, Avatar } from "@/components/ui"
 import { formatTimeAgo } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const TICKETS = [
   { id:"s1", ticketNo:"TKT-2024-1849", user:"Arjun Mehta", userRole:"BUYER", email:"arjun@demo.com", subject:"Unable to schedule a viewing — button not working", priority:"HIGH", status:"OPEN", category:"BUG", time:new Date(Date.now()-1*3600000) },
   { id:"s2", ticketNo:"TKT-2024-1848", user:"Priya Sharma", userRole:"AGENT", email:"priya@agency.com", subject:"Commission payment not reflecting in my dashboard", priority:"HIGH", status:"IN_PROGRESS", category:"PAYMENTS", time:new Date(Date.now()-3*3600000) },

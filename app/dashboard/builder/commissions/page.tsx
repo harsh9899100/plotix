@@ -7,7 +7,6 @@ import { formatDate, formatCurrency } from "@/lib/utils"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 import toast from "react-hot-toast"
 
-
 const COMMISSIONS = [
   { id:"c1", agent:"Priya Sharma", agency:"Sharma Realty", project:"Sky Residences", unit:"Unit 1204", salePrice:8500000, rate:2, gross:170000, tds:17000, net:153000, status:"PAID", paidAt:new Date(Date.now()-7*86400000) },
   { id:"c2", agent:"Rohan Mehta", agency:"MetroHomes", project:"Sky Residences", unit:"Unit 805", salePrice:6800000, rate:2, gross:136000, tds:13600, net:122400, status:"PENDING", paidAt:null },

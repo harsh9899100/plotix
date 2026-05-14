@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge, SearchInput, Tabs, Pagination } from "@/components/ui"
 import { formatDateTime, formatCurrency } from "@/lib/utils"
 
-
 const TRANSACTIONS = [
   { id:"t1", ref:"TXN-2024-09841", user:"Arjun Mehta", email:"arjun@demo.com", type:"PLATFORM_FEE", amount:25000, tax:4500, total:29500, method:"UPI", status:"SUCCESS", date:new Date(Date.now()-2*3600000) },
   { id:"t2", ref:"TXN-2024-09842", user:"Priya Sharma", email:"priya@agency.com", type:"COMMISSION", amount:85000, tax:15300, total:100300, method:"NEFT", status:"SUCCESS", date:new Date(Date.now()-5*3600000) },

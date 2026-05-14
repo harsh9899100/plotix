@@ -8,7 +8,6 @@ import { Button, EmptyState, SearchInput, Tabs } from "@/components/ui"
 import { MOCK_PROPERTIES } from "@/lib/data/mock"
 import toast from "react-hot-toast"
 
-
 export default function FavoritesPage() {
   const [favorites, setFavorites] = useState(MOCK_PROPERTIES.slice(0, 5).map((p) => ({ ...p, isFav: true })))
   const [search, setSearch]       = useState("")

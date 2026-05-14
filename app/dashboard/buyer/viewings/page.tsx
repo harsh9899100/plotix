@@ -7,7 +7,6 @@ import { Badge, EmptyState, Tabs, StatCard } from "@/components/ui"
 import { formatDateTime, cn } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const MOCK_VIEWINGS = [
   { id:"v1",propertyTitle:"Luxurious 4BHK Penthouse in Vesu",propertyImage:"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=200&h=150&fit=crop",propertySlug:"luxurious-4bhk-penthouse-vesu-surat",agentName:"Priya Sharma",agentAvatar:"https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face",agentPhone:"+91 97654 32109",scheduledAt:new Date(Date.now()+86400000),duration:60,type:"IN_PERSON",status:"SCHEDULED",location:"Sky High Tower, Vesu, Surat",notes:"Please bring your ID proof" },
   { id:"v2",propertyTitle:"Modern 3BHK Apartment in Adajan",propertyImage:"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=200&h=150&fit=crop",propertySlug:"modern-3bhk-apartment-adajan-surat",agentName:"Rohan Mehta",agentAvatar:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face",agentPhone:"+91 98765 43210",scheduledAt:new Date(Date.now()+3*86400000),duration:45,type:"VIRTUAL",status:"SCHEDULED",location:"Video call link will be shared",notes:"" },
@@ -24,7 +23,7 @@ const STATUS_CONFIG: Record<string,{label:string;variant:any;icon:any}> = {
 }
 
 export default function BuyerViewingsPage() {
-  const [viewings, setViewings] = useState(MOCK_VIEWINGS)
+  const [viewings, setViewings] = useState<any[]>(MOCK_VIEWINGS)
   const [tab, setTab] = useState("all")
   const [feedbackModal, setFeedbackModal] = useState<string|null>(null)
   const [feedbackText, setFeedbackText] = useState("")

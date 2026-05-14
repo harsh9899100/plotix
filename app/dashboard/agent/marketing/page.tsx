@@ -4,7 +4,6 @@ import Link from "next/link"
 import { Megaphone, Mail, Share2, Globe, BarChart2, Plus, ArrowRight } from "lucide-react"
 import DashboardLayout from "@/components/layout/DashboardLayout"
 
-
 const TOOLS = [
   { title:"Email Campaigns", desc:"Send targeted emails to your buyer database with property updates.", icon:Mail, href:"email-campaigns", color:"bg-blue-50 text-blue-600", stats:"3 active campaigns" },
   { title:"Social Media Scheduler", desc:"Schedule posts to Facebook, Instagram and LinkedIn.", icon:Share2, href:"social-media", color:"bg-violet-50 text-violet-600", stats:"Next post: Tomorrow" },

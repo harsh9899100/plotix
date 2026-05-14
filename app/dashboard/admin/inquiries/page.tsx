@@ -6,7 +6,6 @@ import { Badge, Tabs, StatCard, SearchInput, Avatar } from "@/components/ui"
 import { formatTimeAgo } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const INQUIRIES = [
   { id:"i1", buyer:"Arjun Mehta", buyerAvatar:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face", property:"Luxurious 4BHK Penthouse in Vesu", agent:"Priya Sharma", price:38500000, status:"NEW", time:new Date(Date.now()-1*3600000), message:"Interested in purchasing. Please share all details and can we arrange a viewing this weekend?" },
   { id:"i2", buyer:"Meera Patel", buyerAvatar:"", property:"3BHK in SG Highway", agent:"Rohan Mehta", price:12500000, status:"RESPONDED", time:new Date(Date.now()-6*3600000), message:"Is the price negotiable? I have pre-approved home loan from SBI." },

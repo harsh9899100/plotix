@@ -16,12 +16,12 @@ interface MapViewProps {
 }
 
 declare global {
-  interface Window { google: typeof google; _gmapsReady?: boolean }
+  interface Window { google: any; _gmapsReady?: boolean }
 }
 
 export default function MapView({ properties, highlightedId, onMarkerClick, center }: MapViewProps) {
   const mapRef   = useRef<HTMLDivElement>(null)
-  const mapInst  = useRef<google.maps.Map | null>(null)
+  const mapInst  = useRef<any | null>(null)
   const overlays = useRef<Map<string, any>>(new Map())
   const [loaded, setLoaded]   = useState(false)
   const [selected, setSelected] = useState<Property | null>(null)

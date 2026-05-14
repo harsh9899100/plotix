@@ -10,7 +10,6 @@ import {
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend
 } from "recharts"
 
-
 const PROP_PERFORMANCE = [
   { property:"4BHK Penthouse Vesu",     views:1842, inquiries:47, viewings:8, status:"ACTIVE" },
   { property:"3BHK Apartment Adajan",   views:1203, inquiries:28, viewings:5, status:"ACTIVE" },
@@ -54,7 +53,7 @@ export default function AgentAnalyticsPage() {
             { label:"Total Views",      value:PROP_PERFORMANCE.reduce((s,p)=>s+p.views,0).toLocaleString("en-IN"), icon:<Eye className="w-5 h-5 text-violet-500"/>,   color:"bg-violet-50" },
             { label:"Total Inquiries",  value:AGENT_STATS.totalInquiries,                       icon:<MessageSquare className="w-5 h-5 text-emerald-500"/>              },
             { label:"Viewings Done",    value:"33",                                              icon:<Calendar className="w-5 h-5 text-amber-500"/>,  color:"bg-amber-50" },
-            { label:"Deals Closed",     value:AGENT_STATS.totalSales||6,                        icon:<TrendingUp className="w-5 h-5 text-rose-500"/>, color:"bg-rose-50" },
+            { label:"Deals Closed",     value:AGENT_STATS.soldListings||6,                        icon:<TrendingUp className="w-5 h-5 text-rose-500"/>, color:"bg-rose-50" },
             { label:"Commission",       value:formatCurrency(AGENT_STATS.commissionEarned),     icon:<DollarSign className="w-5 h-5 text-emerald-600"/>               },
           ].map(s=><StatCard key={s.label} {...s}/>)}
         </div>

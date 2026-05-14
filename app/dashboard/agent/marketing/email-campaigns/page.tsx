@@ -6,7 +6,6 @@ import { Badge, StatCard, ConfirmDialog } from "@/components/ui"
 import { formatDate } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const CAMPAIGNS = [
   { id:"c1", name:"New Listings November 2024", subject:"🏠 5 New Properties Just Listed in Surat!", audience:"My Buyers List", recipients:87, openRate:42, clickRate:18, status:"SENT", sentAt:new Date(Date.now()-7*86400000) },
   { id:"c2", name:"Price Drop Alert — Adajan", subject:"📉 Price Drop Alert: 3BHK in Adajan now at ₹65L", audience:"Interested Buyers", recipients:34, openRate:61, clickRate:29, status:"SENT", sentAt:new Date(Date.now()-3*86400000) },

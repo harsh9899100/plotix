@@ -12,7 +12,6 @@ import { AMENITIES_LIST, CITIES } from "@/lib/data/mock"
 import { cn } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const PROPERTY_TYPES = [
   { value: "RESIDENTIAL", label: "Residential" }, { value: "COMMERCIAL", label: "Commercial" },
   { value: "INDUSTRIAL",  label: "Industrial" },  { value: "AGRICULTURAL", label: "Agricultural" },

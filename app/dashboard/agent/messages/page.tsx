@@ -6,7 +6,6 @@ import { Avatar, Badge, SearchInput, cn } from "@/components/ui"
 import { formatTimeAgo } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const CONVERSATIONS = [
   { id:"c1", userId:"b1", name:"Vikram Desai",   role:"Buyer", avatar:"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=40&h=40&fit=crop&crop=face", lastMsg:"Is the property still available for viewing this Sunday?", time:new Date(Date.now()-600000), unread:2, isOnline:true, property:"4BHK Penthouse Vesu" },
   { id:"c2", userId:"b2", name:"Sneha Patel",    role:"Buyer", avatar:"https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=40&h=40&fit=crop&crop=face", lastMsg:"Thank you for the brochure! I'll discuss with my family.", time:new Date(Date.now()-3600000), unread:0, isOnline:false, property:"Villa SG Highway" },

@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Select, Checkbox } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 export default function OwnerSettingsPage() {
   const [notifications, setNotifications] = useState({
     emailNewInquiry:true, emailViewing:true, emailPriceAlert:false, smsInquiry:true, pushAll:true,

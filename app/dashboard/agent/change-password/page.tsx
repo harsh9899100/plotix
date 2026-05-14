@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Input } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 export default function AgentChangePasswordPage() {
   const [form, setForm] = useState({ current:"", newPwd:"", confirm:"" })
   const [show, setShow] = useState({ current:false, newPwd:false, confirm:false })

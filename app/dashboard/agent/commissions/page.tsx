@@ -6,7 +6,6 @@ import { Badge, StatCard, Tabs, Pagination } from "@/components/ui"
 import { formatCurrency, formatDate, cn } from "@/lib/utils"
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 
-
 const COMMISSIONS = [
   { id:"c1", propertyTitle:"Luxurious 4BHK Penthouse Vesu",       salePrice:18500000, rate:4, amount:740000,  status:"PAID",    paidAt:new Date(Date.now()-7*86400000),   transactionId:"TXN-2024-001" },
   { id:"c2", propertyTitle:"Spectacular Villa SG Highway",          salePrice:45000000, rate:4, amount:1800000, status:"PAID",    paidAt:new Date(Date.now()-21*86400000),  transactionId:"TXN-2024-002" },

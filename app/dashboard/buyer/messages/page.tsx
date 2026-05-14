@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Avatar, cn } from "@/components/ui"
 import { formatTimeAgo } from "@/lib/utils"
 
-
 const CONVERSATIONS = [
   { id:"c1",userId:"a1",name:"Priya Sharma",role:"Agent",avatar:"https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face",lastMsg:"Sure! The property is available this Saturday for viewing.",time:new Date(Date.now()-300000),unread:2,isOnline:true },
   { id:"c2",userId:"a2",name:"Rohan Mehta",role:"Agent",avatar:"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face",lastMsg:"I've sent you the brochure for SG Highway villa.",time:new Date(Date.now()-3600000),unread:0,isOnline:false },

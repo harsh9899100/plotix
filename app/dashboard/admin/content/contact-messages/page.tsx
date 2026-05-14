@@ -56,7 +56,7 @@ export default function ContactMessagesPage() {
           {/* Message list */}
           <div className="space-y-3">
             {filtered.map(msg => (
-              <div key={msg.id} onClick={()=>setMessages(p=>p.map(m=>m.id===msg.id?{...m,status:m.status==="UNREAD"?"READ":m.status}:m))||setSelected(msg)}
+              <div key={msg.id} onClick={()=>{setMessages(p=>p.map(m=>m.id===msg.id?{...m,status:m.status==="UNREAD"?"READ":m.status}:m)); setSelected(msg)}}
                 className={`card p-4 cursor-pointer transition-all ${selected?.id===msg.id?"border-stone-400 shadow-md":""} ${msg.status==="UNREAD"?"bg-amber-50/20":""}`}>
                 <div className="flex items-start gap-3">
                   <Avatar name={msg.name} size="sm"/>

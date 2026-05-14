@@ -3,7 +3,6 @@ import Link from "next/link"
 import { FileText, Megaphone, HelpCircle, MessageSquare, Star, ArrowRight, PlusCircle } from "lucide-react"
 import DashboardLayout from "@/components/layout/DashboardLayout"
 
-
 const SECTIONS = [
   { title:"Blog Posts", desc:"Create and manage educational content, market insights, and guides for buyers and sellers.", icon:FileText, href:"/dashboard/admin/content/blog", color:"bg-blue-50 text-blue-600", stats:{ total:24, published:18, draft:6 } },
   { title:"Announcements", desc:"Send platform-wide announcements to specific user groups or all users.", icon:Megaphone, href:"/dashboard/admin/content/announcements", color:"bg-amber-50 text-amber-600", stats:{ total:5, published:3, draft:2 } },

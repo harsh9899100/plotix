@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Input, Textarea, Select } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 export default function AddBuyerContactPage() {
   const [form, setForm] = useState({ firstName:"", lastName:"", email:"", phone:"", city:"", propertyInterest:"", budgetMin:"", budgetMax:"", timeline:"", notes:"", status:"WARM" })
   const [saving, setSaving] = useState(false)

@@ -6,7 +6,6 @@ import { Badge, Tabs, StatCard, SearchInput, ConfirmDialog } from "@/components/
 import { formatDate } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const WARRANTIES = [
   { id:"w1", unitRef:"Unit 1204", project:"Sky Residences", ownerName:"Arjun Mehta", category:"STRUCTURE", description:"5-year structural warranty covering foundation, columns, beams, and slabs.", expiresAt:new Date(Date.now()+5*365*86400000), status:"ACTIVE" },
   { id:"w2", unitRef:"Unit 805", project:"Sky Residences", ownerName:"Kiran Shah", category:"WATERPROOFING", description:"2-year waterproofing warranty for terrace, bathroom, and kitchen areas.", expiresAt:new Date(Date.now()+2*365*86400000), status:"ACTIVE" },

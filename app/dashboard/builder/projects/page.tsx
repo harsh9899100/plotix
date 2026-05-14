@@ -7,7 +7,6 @@ import { StatCard, Badge, SearchInput, Tabs, Pagination, EmptyState, ConfirmDial
 import { formatCurrency, formatDate, cn } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-const MOCK_BUILDER = { id:"b1", firstName:"Vikram", lastName:"Patel", role:"BUILDER", email:"vikram@demo.com" }
 const STATUS_COLORS: Record<string,any> = { PRE_LAUNCH:"amber", LAUNCHED:"green", SOLD_OUT:"blue", COMPLETED:"stone" }
 
 const PROJECTS = [
@@ -36,7 +35,7 @@ export default function BuilderProjectsPage() {
   const totals = { units: projects.reduce((s,p)=>s+p.totalUnits,0), sold: projects.reduce((s,p)=>s+p.unitsSold,0), revenue: projects.reduce((s,p)=>s+p.revenue,0), inquiries: projects.reduce((s,p)=>s+p.inquiries,0) }
 
   return (
-    <DashboardLayout user={MOCK_BUILDER as any}>
+    <DashboardLayout>
       <div className="dashboard-main py-6 space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div><h1 className="page-title flex items-center gap-2"><Briefcase className="w-7 h-7 text-violet-500"/>My Projects</h1><p className="page-subtitle">{projects.length} projects · {totals.units} total units</p></div>

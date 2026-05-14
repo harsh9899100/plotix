@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge, EmptyState, Tabs, StatCard } from "@/components/ui"
 import { formatTimeAgo, cn } from "@/lib/utils"
 
-
 const MOCK_INQUIRIES = [
   { id:"iq1", propertyTitle:"Luxurious 4BHK Penthouse in Vesu", propertySlug:"luxurious-4bhk-penthouse-vesu-surat",
     propertyImage:"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=120&h=80&fit=crop",

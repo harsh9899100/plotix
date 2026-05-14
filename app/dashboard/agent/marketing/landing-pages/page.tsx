@@ -7,7 +7,6 @@ import { formatDate } from "@/lib/utils"
 import { useState } from "react"
 import toast from "react-hot-toast"
 
-
 const PAGES = [
   { id:"lp1", title:"Karan Sky Residences — Luxury Apartments in Vesu", slug:"karan-sky-residences", propertyLink:"luxurious-4bhk-penthouse-vesu-surat", views:847, leads:12, status:"PUBLISHED", createdAt:new Date(Date.now()-14*86400000), thumbnail:"https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=300&h=180&fit=crop" },
   { id:"lp2", title:"Exclusive Weekend Open House — Adajan Apartments", slug:"open-house-adajan", propertyLink:"modern-3bhk-apartment-adajan-surat", views:312, leads:5, status:"PUBLISHED", createdAt:new Date(Date.now()-7*86400000), thumbnail:"https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=300&h=180&fit=crop" },

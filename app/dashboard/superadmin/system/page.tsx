@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Badge } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 const SERVICES = [
   { name:"API Server", status:"ONLINE", uptime:"99.97%", responseTime:"42ms", color:"emerald" },
   { name:"Database (PostgreSQL)", status:"ONLINE", uptime:"99.99%", responseTime:"8ms", color:"emerald" },

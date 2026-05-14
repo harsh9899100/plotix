@@ -5,7 +5,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { Button, Select, Checkbox } from "@/components/ui"
 import toast from "react-hot-toast"
 
-
 export default function BuyerPreferencesPage() {
   const [prefs, setPrefs] = useState({
     lookingFor:"BUY",

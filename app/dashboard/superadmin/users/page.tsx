@@ -6,7 +6,6 @@ import DashboardLayout from "@/components/layout/DashboardLayout"
 import { StatCard, SearchInput } from "@/components/ui"
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
 
-
 const MONTHLY_GROWTH = [
   { month:"Jun", buyers:320, agents:24, builders:4, owners:68 },
   { month:"Jul", buyers:380, agents:28, builders:5, owners:79 },

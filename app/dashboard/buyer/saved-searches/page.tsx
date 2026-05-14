@@ -7,7 +7,6 @@ import { Badge, EmptyState, ConfirmDialog } from "@/components/ui"
 import { formatDate, cn } from "@/lib/utils"
 import toast from "react-hot-toast"
 
-
 const MOCK_SEARCHES = [
   { id:"s1", name:"3BHK in Surat Under 1Cr", filters:{ city:"Surat", type:"RESIDENTIAL", listingFor:"SALE", bedrooms:3, maxPrice:10000000, amenities:["Parking","Security"] }, alertOn:true, matchCount:8, lastMatch:new Date(Date.now()-86400000), createdAt:new Date(Date.now()-7*86400000) },
   { id:"s2", name:"Office Space Ahmedabad Rent", filters:{ city:"Ahmedabad", type:"COMMERCIAL", listingFor:"RENT", minArea:1000, maxArea:5000 }, alertOn:false, matchCount:3, lastMatch:new Date(Date.now()-3*86400000), createdAt:new Date(Date.now()-14*86400000) },
