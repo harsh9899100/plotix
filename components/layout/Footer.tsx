@@ -43,7 +43,7 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/5">
         <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="font-body text-stone-500 text-xs">© {new Date().getFullYear()} PLOTIX Reality. All rights reserved.</p>
+          <p className="font-body text-stone-500 text-xs">© {new Date().getFullYear()} PLOTIX Reality. All rights reserved. <span className="hidden sm:inline">|</span><br className="sm:hidden"/> Designed and developed by : <a href="https://harsh-softwaredev.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-500 transition-colors">Harsh Patel</a></p>
           <div className="flex items-center gap-5">
             {["RERA Registered","ISO 9001:2015","SSL Secured"].map(t=><span key={t} className="font-body text-stone-500 text-xs">{t}</span>)}
           </div>

@@ -3,6 +3,8 @@ import { auth } from "@/lib/auth"
 import { InquirySchema } from "@/lib/validations/auth"
 import { sendInquiryNotification } from "@/lib/mail"
 
+export const dynamic = 'force-dynamic'
+
 export async function GET(req: NextRequest) {
   try {
     const session = await auth()
